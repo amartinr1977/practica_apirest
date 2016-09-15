@@ -1,0 +1,31 @@
+{
+  "name": "practica_apirest",
+  "version": "1.0.0",
+  "description": "Ejemplo de API RES",
+  "main": "prueba.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amartinr1977/practica_apirest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amartinr1977/practica_apirest/issues"
+  },
+  "homepage": "https://github.com/amartinr1977/practica_apirest#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
+/* En las dependencias:
+^ -> Indica que en las dependencias sólo es necesario del primer número en adelante. Por ejemplo: ^4.14, puedo instalar la 4.14, 4.15 ..., pero no la 5.x
+~ -> Se fija en el "minor" para que se cumpla. Por ejemplo, la 4.14.1, puedo instalar la 4.14.2, 4.14.3, etc.
+= -> Que sea esa misma
+*/
